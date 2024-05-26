@@ -12,18 +12,17 @@ console.log(umaString.length)  // 8
 
 console.log(umaString.replace(/Um/, "Outra"))  //  Outra Texto
 
-
 let novaString = "O rato roeu a roupa do rei de roma."
 
 console.log(novaString.replace(/r/g, "#"))  //  O #ato #oeu a #oupa do #ei de #oma.
-
 
 console.log(novaString.slice(2, 6))  // rato
 console.log(novaString.slice(-3))  // ma.
 console.log(novaString.slice(32))  // ma.
 
+console.log(novaString.split(" "))  
+/*  
 
-console.log(novaString.split(" "))  /*  
 [
     'O',     'rato',
     'roeu',  'a',
@@ -31,8 +30,8 @@ console.log(novaString.split(" "))  /*
     'rei',   'de',
     'roma.'
 ]
-                                    */
 
+*/
 
 console.log(novaString.split(" ", 3))   //  [ 'O', 'rato', 'roeu' ]
 
