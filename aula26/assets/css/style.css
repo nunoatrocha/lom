@@ -26,6 +26,16 @@ body {
   border-radius: 10px;
 }
 
+.informacao {
+  display: flex;
+  gap: 100px;
+}
+
+.paragrafo-resultado {
+  background-color: rgb(119, 192, 119);
+  padding: 10px 20px;
+}
+
 form input, form label, form button {
   display: block;
   width: 100%;
@@ -55,14 +65,4 @@ form button {
 
 form button:hover {
   background: var(--primary-color-darker);
-}
-
-.informacao {
-  display: flex;
-  gap: 100px;
-}
-
-.paragrafo-resultado {
-  background-color: rgb(119, 192, 119);
-  padding: 10px 20px;
 }
